@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Urbanist", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.page-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-top: 25vh;
+    height: 60vh;
+    width: 30vw;
+    background-color: rgba(200, 183, 201, 0.4);
+    border: 1px solid black;
+    
+}
+header{
+   margin-top: 3vh;
+    
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    align-items: center;
+    justify-content: center;
+    /* background-color: lightgoldenrodyellow; */
+    /* border: 1px solid black; */
+}
+.campos{
+    margin-top: 3vh;
+}
+.campos input:focus{
+    background-color: rgba(115, 50, 54, 0.2);
+}
+.campos button{
+    background-color: rgba(115, 50, 54, 0.7);
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 3px;
+    width: 6rem;
+    height: 1.8rem;
+}
+.campos button:hover{
+    background-color: rgba(115, 50, 54, 1);
+    cursor: pointer;
+}
+.resultado{
+    margin-top: 3vh;
+    height: 18vh;
+    width: 25vw;
+    /* background-color: lightsteelblue; */
+    border: 1px solid black;
+    
+}
