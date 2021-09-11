@@ -15,7 +15,7 @@ body{
     
     margin-top: 25vh;
     height: 60vh;
-    width: 30vw;
+    width: fit-content;
     background-color: rgba(200, 183, 201, 0.4);
     border: 1px solid black;
     
@@ -27,8 +27,8 @@ header{
 }
 main{
     display: flex;
-    flex-direction: column;
-    width: 30vw;
+    /* flex-direction: column; */
+    /* width: 30vw; */
     align-items: center;
     justify-content: center;
     /* background-color: lightgoldenrodyellow; */
@@ -36,6 +36,8 @@ main{
 }
 .campos{
     margin-top: 3vh;
+    display: flex;
+    justify-content: center;
 }
 .campos input:focus{
     background-color: rgba(115, 50, 54, 0.2);
@@ -56,7 +58,9 @@ main{
 .resultado{
     margin-top: 3vh;
     height: 18vh;
-    width: 25vw;
+    width: 15vw;
+    padding: 2em;
+    margin: 2em;
     /* background-color: lightsteelblue; */
     border: 1px solid black;
     

@@ -13,26 +13,30 @@
             <h3>Calculadora IMC</h3>
         </header>
         <main>
-            <div class="campos">
-                <label for="nome">Nome:</label>
-                <input type="text" name="nome" id="nome">
+            <div>
+
+                <div class="campos">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div class="campos">
+                    <label for="altura">Altura:</label>
+                    <input type="number" name="altura" id="altura">
+                </div>
+                <div class="campos">
+                    <label for="peso">Peso:</label>
+                    <input type="number" name="peso" id="peso">
+                </div>
+                <div class="campos">
+                    <button id="calcular">Calcular</button>
             </div>
-            <div class="campos">
-                <label for="altura">Altura:</label>
-                <input type="number" name="altura" id="altura">
             </div>
-            <div class="campos">
-                <label for="peso">Peso:</label>
-                <input type="number" name="peso" id="peso">
-            </div>
-            <div class="campos">
-                <button>Calcular</button>
-            </div>
-            <div class="resultado">
+            <div class="resultado" id="resultado">
 
 
             </div>
         </main>
     </div>
+    <script src='./index.js'></script>
 </body>
 </html>
